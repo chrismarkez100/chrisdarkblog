@@ -1,0 +1,21 @@
+{
+  "name": "chrisdarkblog",
+  "description": "get some krunk in your system",
+  "scripts": {
+  },
+  "env": {
+    "": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": " https://github.com/heroku/heroku-buildpack-ruby"
+    }
+  ]
+}
